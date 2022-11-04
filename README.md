@@ -1,4 +1,4 @@
-# TensorsFeatureExtractionBathymetry
+# TensorsCNNBathymetry
 This is a MATLAB script demonstrating a deep learning-based geodetic bathymetry prediction using gravity gradient tensors as input signals. <br>
 The MATLAB wrapper for the Generic Mapping Tools (GMT) is extensively used in this code. 
 You only need to install GMT 6.3.0 or above, available at https://github.com/GenericMappingTools/gmt/releases. <br>
