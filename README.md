@@ -11,7 +11,7 @@ There is a possibility of running out of memory as the demonstration area (lon -
 Access to a more powerful GPU is highly recommended. It is advisable to cut out a study area smaller than, or preferably half of, this one if your computer has a 32 GB RAM. <br>
 
 There are further instructions as you run the code. <br>
-Since the code is a livescript, you are advised to run it section-by-section.
+It is advisable to run it section-by-section in a livescript (.mlx) file.
 
 This code supports a research article currently under review. I will provide the reference for the article immediately it is published.
 
