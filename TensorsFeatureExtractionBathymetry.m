@@ -170,7 +170,7 @@ Options = trainingOptions('sgdm', ...
                           'CheckpointPath',CheckPointPath, ...
                           'ExecutionEnvironment','auto');
 
-% You can manually stop training if the differences in RMSEs are negligible, especially from epoch 15 onwards. 
+% You can manually stop training if the differences in RMSEs are negligible, especially from epoch 20 onwards. 
 % In this demonstration, I allowed it to run to epoch 25.
 [netModel, netInfo] = trainNetwork(XFull(:,:,:,TrainIndex), YFull(TrainIndex), Layers, Options);
 save('GravityGradients.mat', 'netModel', 'netInfo', '-append') % save the model
